@@ -84,7 +84,7 @@ def calculate_order() -> None:
 
     # 5 & 6. Виведення та форматування за допомогою f-рядків
     print("\n" + "="*40)
-    print(ЖУРНАЛ ЗАМОВЛЕННЯ ДЛЯ: {customer_name.upper()})
+    print(f"ЖУРНАЛ ЗАМОВЛЕННЯ ДЛЯ: {customer_name.upper()}")
     print(f"Сума до сплати за книги: {subtotal:.2f} грн")
     print(f"Знижка: -{discount:.2f} грн")
     print(f"Доставка ({delivery_name}): {delivery_fee:.2f} грн")
