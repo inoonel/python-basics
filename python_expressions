@@ -1,0 +1,23 @@
+price = 150
+quantity = 4
+total = price * quantity
+print(total) # 600
+
+result = 10 + 2 * 3 ** 2
+# 10 + 2 * 9
+# 10 + 18
+print(result) # 28
+
+price = float(input("Ціна товару: "))
+quantity = int(input("Кількість: "))
+# Розрахунок вартості та знижки
+total = price * quantity
+discount = total * 0.10
+final_price = total - discount
+print(f"До сплати: {final_price:.2f} грн")
+
+number = int(input("Число: "))
+is_even = number % 2 == 0
+in_range = 10 <= number <= 100
+valid = is_even and in_range
+print(f"Допустиме число: {valid}")
